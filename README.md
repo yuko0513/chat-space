@@ -29,7 +29,7 @@ Things you may want to cover:
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
-## messageテーブル
+## membersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -40,11 +40,28 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
-##passwordテーブル
+
+## messageテーブル
 
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
+|text|t.string :text|null: false|
+|images| t.string :name|t.binary :data|null: false|
+
+### Association
+- belongs_to :group
+- belongs_to :user
+
+## usersテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|user_id|integer|null: false, foreign_key: true|
+|telephonenumber|integer|null: false, foreign_key: true|
+|adress|t.string :|null: false, foreign_key: true|
+|password|t.string :passworld|null: false|
 
 ### Association
 - belongs_to :user
@@ -56,6 +73,7 @@ Things you may want to cover:
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
+|group_name|t.string :name|null: false, foreign_key: true|
 
 
 ### Association
