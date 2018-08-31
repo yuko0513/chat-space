@@ -22,15 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-<<<<<<< HEAD
-## membersテーブル
 
-|Column|Type|Options|
-|------|----|-------|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
-=======
->>>>>>> master
 
 ## membersテーブル
 
@@ -57,6 +49,7 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
+
 ## usersテーブル
 
 |Column|Type|Options|
@@ -65,6 +58,7 @@ Things you may want to cover:
 |telephonenumber|integer|null: false, foreign_key: true|
 |adress|t.string :|null: false, foreign_key: true|
 |password|t.string :passworld|null: false|
+
 
 ### Association
 - belongs_to :user
