@@ -22,12 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
 ## membersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
+=======
+>>>>>>> master
 
 ## membersテーブル
 
@@ -39,42 +42,29 @@ Things you may want to cover:
 ### Association
 - belongs_to :group
 - belongs_to :user
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/chat-space-ブランチ
 ## messageテーブル
 
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
-<<<<<<< HEAD
 |text|t.string :text|null: false|
 |images| t.string :name|t.binary :data|null: false|
-=======
->>>>>>> origin/chat-space-ブランチ
 
 ### Association
 - belongs_to :group
 - belongs_to :user
 
-<<<<<<< HEAD
 ## usersテーブル
-=======
-##passwordテーブル
->>>>>>> origin/chat-space-ブランチ
 
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
-<<<<<<< HEAD
 |telephonenumber|integer|null: false, foreign_key: true|
 |adress|t.string :|null: false, foreign_key: true|
 |password|t.string :passworld|null: false|
-=======
->>>>>>> origin/chat-space-ブランチ
 
 ### Association
 - belongs_to :user
@@ -86,10 +76,7 @@ Things you may want to cover:
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
-<<<<<<< HEAD
 |group_name|t.string :name|null: false, foreign_key: true|
-=======
->>>>>>> origin/chat-space-ブランチ
 
 
 ### Association
