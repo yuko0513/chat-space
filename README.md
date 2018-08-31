@@ -55,8 +55,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
-|telephonenumber|integer|null: false, foreign_key: true|
-|adress|t.string :|null: false, foreign_key: true|
+|e-mail_adress|t.string :|null: false, foreign_key: true|
 |password|t.string :passworld|null: false|
 
 
